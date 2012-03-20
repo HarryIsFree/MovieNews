@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:orientation="vertical"
+  android:layout_width="wrap_content" android:layout_height="wrap_content" android:weightSum="1">
+    <LinearLayout android:id="@+id/linearLayout1" android:layout_width="322dp" android:layout_height="96dp" android:weightSum="1">
+        <ImageView android:id="@+id/imageView1" android:src="@drawable/icon" android:layout_width="83dp" android:layout_height="match_parent">
+        </ImageView>
+        <LinearLayout android:layout_height="match_parent" android:id="@+id/linearLayout3" android:orientation="vertical" android:layout_width="wrap_content">
+            <EditText android:layout_width="match_parent" 
+            		  android:layout_height="wrap_content" 
+            		  android:id="@+id/editText1"
+            		  android:editable="false"
+            		  android:focusable="false"
+            		  >
+                <requestFocus></requestFocus>
+            </EditText>
+            <RatingBar android:id="@+id/ratingBar1" 
+            		   android:layout_width="wrap_content" 
+            		   android:layout_height="wrap_content"
+            		   
+            		   >
+            		   </RatingBar>
+        </LinearLayout>
+    </LinearLayout>
+    
+</LinearLayout>

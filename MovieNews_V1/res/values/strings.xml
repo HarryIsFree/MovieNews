@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Hello World, MovieNewsActivity!</string>
+    <string name="app_name">MovieNews</string>
+    <string name="MIME_TYPE">text/html</string>
+    <string name="ENCODING">utf-8</string>
+    <string name="STAR_EMPTY">1</string>
+    <string name="STAR_A_FIFTH">2</string>
+    <string name="STAR_HALF">3</string>
+    <string name="STAR_THREE_FIFTH">4</string>
+    <string name="STAR_FULL">5</string>
+    <string name="STORE_MOVIE">收藏</string>
+    <string name="MOVIE_EXIT">退出</string>
+    <string name="WEEKLY">单周：</string>
+    <string name="TOTAL">总共：</string>
+    <string name="INTRODUCTION">影片简介：</string>
+    <string name="PLEASE_WAIT">请稍候...</string>
+    <string name="FINISHED">已完成</string>
+    <string name="STORE_SUCCESS">收藏成功！</string>
+    <string name="MOVIE_EXIST">影片已存在</string>
+    <string name="SEE_MORE_PICS">查看剧照</string>
+    <string name="NEW_MOVIE">新片</string>
+    <string name="MOVIE_STORE">收藏</string>
+    <string name="BOX_OFFICE">票房</string>
+    <string name="MOVIE_HISTORY">台词</string>
+    <string name="SEARCH_MOVIE">搜索影片</string>
+    <string name="NO_RESULTS_FOUND">未搜索到结果</string>
+    <string name="EXIT_APP">退出程序</string>
+    <string name="HOME_PAGE">返回首页</string>
+    <string name="SEND_SMS">发送短信</string>
+    <string name="MOVIE_LIST">电影列表</string>
+    <string name="KEYWORD">关键词查找</string>
+    <string name="CHOOSE_MOVIE">请选择影片</string>
+    <string name="KEYWORD_HINT">请输入关键字</string>
+    <string name="COMFIRM">确定</string>
+    <string name="NOT_NETWORK_CONNECTION">未检测到网络连接，请先连接到网络。</string>
+    <string name="KEY_NOT_FOUND">未找到关键字</string>
+    <string name="RETURN_HINT">点击右上角返回正常模式</string>
+</resources>

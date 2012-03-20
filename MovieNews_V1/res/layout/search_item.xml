@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:orientation="vertical"
+  android:layout_width="470px"
+  android:layout_height="160px">
+  <RelativeLayout
+  	android:layout_width="fill_parent"
+  	android:layout_height="fill_parent"
+  	android:background="#00FFFFFF"
+  >
+  	<RelativeLayout
+  		android:id="@+id/search_ll"
+  		android:layout_width="110px"
+  		android:layout_height="140px"
+  		android:orientation="vertical"
+  		android:background="#00FFFFFF"
+  	>
+  	<ImageView
+  		android:id="@+id/search_imageView"
+  		android:layout_width="100px"
+  		android:layout_height="140px"
+  		android:layout_centerInParent="true"
+  		android:background="#00FFFFFF"
+  	/>
+  	</RelativeLayout>
+  	<TextView
+  		android:id="@+id/search_title"
+  		android:layout_toRightOf="@id/search_ll"
+  		android:layout_alignTop="@id/search_ll"
+  		android:layout_height="67px"
+  		android:layout_width="match_parent"
+  		android:background="#00FFFFFF"
+  	/>
+  	<TextView
+  		android:id="@+id/search_info"
+  		android:layout_toRightOf="@id/search_ll"
+  		android:layout_below="@id/search_title"
+  		android:layout_alignBottom="@id/search_ll"
+  		android:layout_width="match_parent"
+  		android:layout_height="73px"
+  		android:background="#00FFFFFF"
+  	/>
+  </RelativeLayout>
+    
+</LinearLayout>

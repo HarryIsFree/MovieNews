@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:orientation="horizontal"
+  android:layout_width="fill_parent"
+  android:layout_height="wrap_content">
+    
+    <ImageButton
+    	android:id="@+id/db_imageButton"
+    	android:layout_width="wrap_content"
+    	android:layout_height="wrap_content"
+    	android:background="#00FFFFFF"
+    	android:clickable="false"
+    />
+    <RelativeLayout
+    	android:layout_width="fill_parent"
+    	android:layout_height="fill_parent"
+    	android:background="#00FFFFFF"
+    >
+    <Button
+    	android:id="@+id/db_button"
+    	android:layout_width="fill_parent"
+    	android:layout_height="fill_parent"
+    	android:gravity="center"
+    	android:paddingRight="30px"
+    	android:background="#FFFFFFFF"
+    />
+    <ImageButton
+    	android:id="@+id/db_delete"
+    	android:layout_width="wrap_content"
+    	android:layout_height="wrap_content"
+    	android:layout_centerVertical="true"
+    	android:layout_alignRight="@id/db_button"
+    	android:background="@drawable/delete"
+    />
+    </RelativeLayout>
+</LinearLayout>

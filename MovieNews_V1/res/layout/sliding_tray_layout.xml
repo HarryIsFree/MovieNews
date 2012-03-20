@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:orientation="vertical"
+  android:layout_width="480px" 
+  android:layout_height="wrap_content">
+
+  		<TextView
+  			android:layout_width="fill_parent"
+  			android:layout_height="wrap_content"
+  			android:textColor="#FFFFFFFF"
+  			android:text="@string/KEYWORD_HINT"
+  			android:background="#FF808080"
+  			android:gravity="center"
+  		/>
+  		<RelativeLayout
+  			android:layout_width="fill_parent"
+  			android:layout_height="80px"
+  			android:background="#FF808080"
+  		>	
+  			<EditText
+  				android:id="@+id/sentence_searchText"
+  				android:layout_width="300px"
+  				android:layout_height="60px"
+  				android:layout_centerHorizontal="true"
+  				android:layout_centerVertical="true"
+  			/>
+  			<Button
+  				android:id="@+id/sentence_confirm"
+  				android:layout_width="80px"
+  				android:layout_height="60px"
+  				android:layout_toRightOf="@id/sentence_searchText"
+  				android:layout_alignTop="@id/sentence_searchText"
+  				android:text="@string/COMFIRM"
+  			/>
+  		</RelativeLayout>
+</LinearLayout>
